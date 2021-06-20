@@ -1,12 +1,8 @@
 // typed
-var typed3 = new Typed("#typed3", {
-  strings: [
-    "My strings are: <i>strings</i> with",
-    "My strings are: <strong>HTML</strong>",
-    "My strings are: Chars &times; &copy;",
-  ],
-  typeSpeed: 0,
-  backSpeed: 0,
+var typed = new Typed(".typed", {
+  strings: ["snna", "cllc", "d", "mec"],
+  typeSpeed: 34,
+  backSpeed: 3,
   smartBackspace: true, // this is a default
   loop: true,
 });
