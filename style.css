@@ -128,3 +128,36 @@ header .button:hover a {
   background: linear-gradient(19deg, rgba(0, 180, 219, 0.69) 0%, #0083b0 80%);
   clip-path: polygon(0 11%, 100% 4%, 91% 99%, 0 89%);
 }
+.autodidacte {
+  padding-top: 20px;
+}
+.fcc {
+  padding: 50px 0 0 9%;
+}
+.occ {
+  padding: 50px 0 0 18%;
+}
+#formation h4 {
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  padding-bottom: 10px;
+  color: #005978;
+  text-shadow: -1px -1px 1px #35b4d5;
+}
+.counter {
+  display: flex;
+  text-align: center;
+}
+.data {
+  border: 1px solid #35b4d5;
+  width: 170px;
+  margin: 0 4%;
+  box-shadow: 0 0 8px #1c9dc4;
+  padding: 5px 20px;
+}
+.counter-value {
+  font-size: 2em;
+}
+.data-span {
+  font-size: 1.8em;
+}
