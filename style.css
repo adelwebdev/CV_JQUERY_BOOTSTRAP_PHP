@@ -161,3 +161,44 @@ header .button:hover a {
 .data-span {
   font-size: 1.8em;
 }
+
+/* ----------------------------PARCOURS--------------------------------- */
+
+.parcours {
+  max-width: 800px;
+  margin: 640px auto 180px auto;
+  padding: 40px 30px 100px 30px;
+  background: url(./support-projet-4-master/media/parcours.jpg) no-repeat fixed
+    50% 50%;
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: -1px -1px 8px #283655;
+}
+.parcours h3 {
+  font-size: 2.5em;
+  padding-bottom: 30px;
+}
+.parcours h4 {
+  font-size: 1.6em;
+  color: #ff4e50;
+  margin-left: 20px;
+}
+.parcours h6 {
+  font-style: italic;
+  color: #edca21;
+  margin-left: 20px;
+}
+.parcours p {
+  line-height: 1.9em;
+}
+.timeline {
+  border-top: 3px solid;
+  border-image: linear-gradient(to right, #f9d423, #ff4e50);
+  border-image-slice: 1;
+  margin: 0;
+  padding: 40px;
+  position: relative;
+}
+.timeline:nth-child(1):after {
+  content: "><";
+}
