@@ -1,4 +1,4 @@
-// NAVBAR
+// Navbar------------------------------------------------------
 let lastScrollTop = 0;
 navbar = document.getElementById("navbar");
 
@@ -14,7 +14,7 @@ window.addEventListener("scroll", function () {
   lastScrollTop = scrollTop;
 });
 
-// typed
+// Typed---------------------------------------------------------
 var typed = new Typed(".typed", {
   strings: [" Programmeur", " Dévéloppeur", " Docteur"],
   typeSpeed: 34,

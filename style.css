@@ -36,7 +36,7 @@ header {
   background: url(./support-projet-4-master/media/header.jpg) no-repeat fixed
     50% 50%;
   text-align: center;
-  height: 300vh;
+  height: 100vh;
   background-size: cover;
 }
 h1 {
@@ -98,4 +98,13 @@ header .button:hover a {
   color: #e2edeb;
   transition: all 0.3s ease-in-out;
   text-decoration: none;
+}
+
+/* -------------------------------Langages------------------------------------- */
+#langages {
+  height: 620px;
+  padding: 80px 80px 80px 50px;
+  margin: 20px 0 0 6%;
+  width: 47%;
+  max-width: 640px;
 }
