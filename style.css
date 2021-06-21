@@ -201,4 +201,25 @@ header .button:hover a {
 }
 .timeline:nth-child(1):after {
   content: "><";
+  color: #ff4e50;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  box-sizing: content-box !important;
+}
+.timeline:nth-child(1) {
+  border-bottom: 3px solid;
+  border-top: none;
+  width: 80%;
+}
+.timeline:nth-child(2) {
+  border-top: none;
+}
+.timeline:nth-child(odd) {
+  border-right: 3px solid;
+  padding-left: 0;
+}
+.timeline:nth-child(even) {
+  border-left: 3px solid;
+  padding-right: 0;
 }
