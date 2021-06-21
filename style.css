@@ -36,7 +36,7 @@ header {
   background: url(./support-projet-4-master/media/header.jpg) no-repeat fixed
     50% 50%;
   text-align: center;
-  height: 100vh;
+  height: 120vh;
   background-size: cover;
 }
 h1 {
@@ -107,4 +107,24 @@ header .button:hover a {
   margin: 20px 0 0 6%;
   width: 47%;
   max-width: 640px;
+  background: linear-gradient(138deg, #49f71b 0%, #ffc7c7 80%);
+  clip-path: polygon(0 10%, 100% 4%, 91% 95%, 0 79%);
+}
+#langages .bar {
+  padding: 10px 0 0 0;
+  letter-spacing: 0.1em;
+}
+
+/* -----------------------------------Formations--------------------------------- */
+
+#formation {
+  position: relative;
+  top: -200px;
+  float: right;
+  margin-right: 5%;
+  padding: 110px 0 60px 50px;
+  width: 45%;
+  max-width: 660px;
+  background: linear-gradient(19deg, rgba(0, 180, 219, 0.69) 0%, #0083b0 80%);
+  clip-path: polygon(0 11%, 100% 4%, 91% 99%, 0 89%);
 }
