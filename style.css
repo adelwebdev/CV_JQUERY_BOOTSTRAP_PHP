@@ -447,3 +447,67 @@ header .button:hover a {
 .flip-box:hover .flip-box-inner {
   transform: rotateY(180deg);
 }
+
+/* -----------------------------------FOOTER------------------------------ */
+footer {
+  background: url(./support-projet-4-master/media/footer.jpg) 50% 0% no-repeat
+    fixed;
+  background-size: cover;
+  text-align: center;
+  padding: 160px 50px 5px 50px;
+}
+footer h3 {
+  padding: 0 0 60px 0;
+  font-size: 2.5rem;
+}
+.footer-icons {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 60%;
+}
+.network {
+  font-size: 4em;
+  border: 1px solid #b3aca7;
+  padding: 30px 45px;
+  color: #726659;
+  z-index: -1 !important;
+  border-radius: 50%;
+}
+.network:hover {
+  background: #b3aca7;
+  transition: all 0.3s ease-in-out;
+  color: #e2dedb;
+}
+.arrow {
+  width: 50px;
+  margin: -20 auto;
+  padding-top: 15px;
+  animation: arrow linear 1.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes arrow {
+  0% {
+    transform: translateY(0px);
+  }
+  38% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.arrow a {
+  font-size: 3em;
+  border: none;
+  color: #726659;
+}
+.arrow:hover i {
+  transform: scale(1.6);
+  transition: 0.5s ease-in-out;
+  color: #726659;
+}
+footer p {
+  font-size: 0.9em;
+  letter-spacing: 0.3em;
+}
