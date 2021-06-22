@@ -223,3 +223,56 @@ header .button:hover a {
   border-left: 3px solid;
   padding-right: 0;
 }
+
+/* -------------------------PORTFOLIO------------------------------ */
+
+#portfolio {
+  margin: 100px 2% 0 2%;
+  padding: 40px 10px 60px 40px;
+  background-color: rgba(161, 80, 21, 0.08);
+  box-shadow: 0px 0px 1px #a8a8a9;
+}
+#portfolio h3 {
+  font-size: 3em;
+  padding-bottom: 15px;
+}
+.projet {
+  display: flex;
+}
+.projet:nth-child(2) {
+  margin-left: 3%;
+}
+.projet:nth-child(3) {
+  margin-left: 6%;
+}
+.cadre {
+  position: relative;
+  padding: 40px 20px 25px 0;
+  width: 60%;
+  max-width: 600px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin: 10px 8px;
+  color: #aca49c;
+  text-align: center;
+}
+.img-container {
+  height: 250px;
+  width: 90%;
+  max-width: 500px;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 1px 1px 10px #111;
+}
+.img-container img {
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+}
+.img-container:hover img {
+  transform: scale(1.07);
+  transform-origin: 50% 50%;
+  filter: contrast(140%);
+  transition: 0.3s ease-in-out;
+}
