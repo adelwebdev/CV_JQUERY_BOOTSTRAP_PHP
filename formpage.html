@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>PHP Contact Form Template - reusable form</title>
+    <link rel="stylesheet" href="form.css" >
+  </head>
+  <body >
+    <div class="form-container">
+      <form id="reused_form">
+        <div>
+          <input id="name" type="text" name="name" placeholder="Nom" required class="validate">
+        </div>
+        <div>
+          <input id="email" type="email" name="email" placeholder="E-mail" required class="validate">
+        </div>
+        <div>
+          <textarea id="message" name="message" placeholder="Ici votre message..." class="validate" ></textarea>
+        </div>
+        <div>
+          <button class="form-button" type="submit">Envoyer</button>
+        </div>
+      </form>
+
+      <div id="error_message" style="width:100%; height:100%; display:none; ">
+        <h4>Une erreur s'est produite, veuillez rééssayer</h4> 
+      </div>
+      <div id="success_message" style="width:100%; height:100%; display:none; ">
+        <h4>Message envoyé !</h4>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./assets/form/form.js"></script>
+  </body>
+</html>
